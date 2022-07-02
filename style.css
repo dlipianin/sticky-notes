@@ -1,0 +1,82 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: #c68c53a8;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+}
+
+.main-container {
+  width: 95%;
+  margin: auto;
+}
+
+.container1 {
+  margin: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.container1 h1 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.container2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 5% 0;
+  margin: auto;
+  width: 80%;
+}
+
+.container3 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+textarea {
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+  outline: none;
+  border: none;
+  width: 275px;
+  height: 275px;
+  padding: 40px 25px 25px 25px;
+  resize: none;
+}
+
+svg {
+  color: gray;
+}
+
+#check-icon {
+  position: absolute;
+  right: 17%;
+  top: 4%;
+  cursor: pointer;
+}
+
+#check-icon:hover {
+  color: green;
+}
+
+#x-icon {
+  position: absolute;
+  right: 5%;
+  top: 4%;
+  cursor: pointer;
+}
+
+#x-icon:hover {
+  color: red;
+}
